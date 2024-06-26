@@ -1,0 +1,136 @@
+@media (max-width: 1399px) {
+  .qualities {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 1200px) {
+  .qualities {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .location,
+  .tel,
+  .opening {
+    flex: 1 !important;
+    text-align: center;
+  }
+  .intro h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .statistics > .container {
+    height: auto;
+    background: none;
+  }
+  .counter {
+    border-right: none;
+    margin-bottom: 10px;
+    background-color: #231b26;
+  }
+  .vape-shape {
+    display: none;
+  }
+  .qualities {
+    margin: 25px 0 5px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .cta{
+    display: none;
+  }
+  .location,
+  .tel,
+  .opening {
+    font-size: 10px;
+  }
+  .intro h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .statistics > .container {
+    height: auto;
+  }
+  .counter {
+    border-right: none;
+  }
+  .categories h3 {
+    font-size: 30px !important;
+  }
+  .why-content {
+    width: 100%;
+  }
+  .testimonials .col-12 {
+    margin-bottom: 100px !important;
+    margin-left: 25px !important;
+  }
+  .partners img {
+    margin-bottom: 20px;
+  }
+  footer .lead {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+  }
+  .quick-links ul {
+    display: inline;
+  }
+  .quick-links {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+  }
+  .follow-us {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
+  }
+}
+@media (max-width: 500px) {
+  .location,
+  .tel,
+  .opening {
+    font-size: 7px;
+  }
+  .intro h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .btns {
+    flex-direction: column;
+  }
+  .btns {
+    .m-btn {
+      width: 80%;
+      margin: 0 auto 15px;
+    }
+  }
+  .who-content,
+  .why-content {
+    width: 100%;
+  }
+  .categories h3 {
+    font-size: 18px !important;
+  }
+  .categories .btn {
+    font-size: 18px !important;
+    padding: 10px 5px !important;
+  }
+  .ctegory-text,
+  .category-image {
+    height: 250px;
+  }
+  .ctegory-text {
+    padding: 30px;
+  }
+  .qualities {
+    flex-direction: column;
+  }
+  .testimonials h3 {
+    font-size: 25px !important;
+  }
+  .headline {
+    text-align: center;
+  }
+}
