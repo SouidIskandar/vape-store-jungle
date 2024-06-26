@@ -56,8 +56,8 @@ $conn->close();
           </div>
           <div class="menu-toggle" id="mobile-menu"><i class='bx bx-menu'></i></div>
           <div class="nav-links">
-            <a href="http://localhost/ecommerce/index.php"><i class='bx bx-home'></i> Home</a>
-            <a href="http://localhost/ecommerce/shop.php">Shop</a>
+            <a href="index.php"><i class='bx bx-home'></i> Home</a>
+            <a href="shop.php">Shop</a>
             <div class="dropdown">
               <a href="#">Categories</a>
               <div class="dropdown-content">
@@ -67,12 +67,12 @@ $conn->close();
                 <?php endforeach; ?>
               </div>
             </div>
-            <a href="http://localhost/ecommerce/contact.php">Contact</a>
+            <a href="contact.php">Contact</a>
           </div>
           <div class="auth-buttons">
-            <a href="http://localhost/ecommerce/auth/login.php"><i class='bx bx-log-in-circle'
+            <a href="./auth/login.php"><i class='bx bx-log-in-circle'
                 style='color:#ffffff'></i> Login</a>
-            <a href="http://localhost/ecommerce/auth/register.php"><i class='bx bx-user-plus' style='color:#ffffff'></i>
+            <a href="./auth/register.php"><i class='bx bx-user-plus' style='color:#ffffff'></i>
               Signup</a>
           </div>
         </nav>
